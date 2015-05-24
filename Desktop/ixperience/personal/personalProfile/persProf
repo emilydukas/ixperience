@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+  <title>Emily Dukas</title>
+</head>
+<body>
+  <img src="http://i.imgur.com/krigoa1m.jpg?1">
+  <h1>Emily Dukas</h1>
+  <p>University of Virginia</p>
+  <h2>I want to learn how to code because I think it's the future</h2>
+  <h2>I'm most excited about hiking Table Mountain</h2>
+  <h2>People might not know I'm Basque</h2>
+</body>

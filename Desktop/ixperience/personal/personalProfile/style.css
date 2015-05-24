@@ -1,0 +1,21 @@
+title{
+    font-size: 25px;
+  }
+    body {
+      text-align: center;
+      background: url("http://i.imgur.com/1s10NSY.jpg?1");
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: 'Chewy', cursive;
+    }
+    p {
+      font-size: 25px;
+    }
+  h1{
+    color: rgba(0,250,255,1);
+    font-size: 70px;
+  }
+  h2 {
+    color: white;
+  }

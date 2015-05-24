@@ -1,0 +1,17 @@
+body{
+	background: url("../images/Unknown.jpeg");
+	background-size: cover;
+	text-align: center;
+}
+h1{
+	color: blue;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 50px;
+}
+.jobs{
+	color: white;
+}
+img{
+	height: 300px;
+	width: 300px;
+}
