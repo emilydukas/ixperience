@@ -1,0 +1,30 @@
+<%= form_for @expenditure do |f| %>
+
+	<% if @expenditure.errors.any? %>
+		<h2>
+			<%= pluralize(@expenditure.errors.count, "error") %>
+			prohibited this expenditure from being saved
+		</h2>
+
+		<ul>
+			<% @expenditure.errors.full_messages.each do |msg| %>
+				<li><%= msg %></li>
+			<% end %>
+		</ul>
+	<% end %>
+
+	<p>
+	<%= f.label :name %>
+	<%= f.text_field :name %>
+	</p>
+
+	<p>
+		<%= f.label :price %>
+		<%= f.text_field :price %>
+	</p>
+
+	<p>
+		<%= f.submit %>
+	</p>
+
+<% end %>

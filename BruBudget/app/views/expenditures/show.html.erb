@@ -1,0 +1,11 @@
+
+<h1> <%= @expenditure.name %> </h1>
+
+<p><%= @expenditure.price %></p>
+
+<p><%= link_to 'Edit', edit_expenditure_path(@expenditure) %> |
+	 <%= link_to 'Destroy', expenditure_path(@expenditure), method: :delete, data: { 
+	 	confirm: "SERIOUSLY?" } %></p>
+
+<%= link_to 'Back', expenditures_path %></td>
+

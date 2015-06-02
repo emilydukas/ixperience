@@ -1,0 +1,10 @@
+<h1>All Expenditures</h1>
+
+<% @expenditures.each do |expenditure| %>
+	<div>
+	 <strong><%= link_to expenditure.name, expenditure_path(expenditure) %></strong>
+	 <p><%= expenditure.price %></p>
+	 </div>
+<%end%>
+
+<%= link_to 'Back', users_path %>
